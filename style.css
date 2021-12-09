@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: cornflowerblue;
 }
 
 form {
     background-color: rgb(68, 68, 238);
     padding: 50px 100px;
+    border: 5px solid slategray ;
 
+}
+h1 {
+    color: indigo;
+    font-family: 30px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .text  {
     margin: 20px 0;
-}
+    }
 .text input {
     width: 100%;
+    padding: 10px;
+    border: 2px solid gray;
+    font-family: 'Indie Flower', cursive;
 }
 .btn {
     display: flex;
@@ -24,4 +35,13 @@ form {
 }
 .btn input {
     cursor: pointer;
+    background-color: bisque;
+    border: 3px solid beige;
+    padding: 10px 20px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.btn input:hover {
+    background-color:cadetblue;
 }
