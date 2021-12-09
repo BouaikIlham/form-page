@@ -1,7 +1,27 @@
-h2{
-    color:red;
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-span {
-    color: blue;
+form {
+    background-color: rgb(68, 68, 238);
+    padding: 50px 100px;
+
+}
+
+.text  {
+    margin: 20px 0;
+}
+.text input {
+    width: 100%;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+.btn input {
+    cursor: pointer;
 }
