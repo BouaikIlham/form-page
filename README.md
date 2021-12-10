@@ -13,7 +13,7 @@
 
 - Authors 
     - Ilham Bouaik
-    -  GitHub : [@bouaik ilhams](https://github.com/)
+    -  GitHub : [@bouaik ilham](https://github.com/)
 - 🤝 Contributing
     
     Contributions, issues and feature requests are welcome!
