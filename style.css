@@ -1,32 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: black;
 }
 
 form {
-    background-color: rgb(68, 68, 238);
+    background-color: rosybrown;
     padding: 50px 100px;
     border: 5px solid slategray ;
+    width: 435px;
+  
 
 }
 h1 {
     color: indigo;
-    font-family: 30px;
-    font-family: 'Rajdhani', sans-serif;
-}
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .text  {
     margin: 20px 0;
+    
     }
 .text input {
     width: 100%;
     padding: 10px;
-    border: 2px solid gray;
-    font-family: 'Indie Flower', cursive;
+    border: 2px solid black;
+    font-family: 'Roboto Mono', monospace;
 }
 .btn {
     display: flex;
@@ -35,10 +42,11 @@ h1 {
 }
 .btn input {
     cursor: pointer;
-    background-color: bisque;
-    border: 3px solid beige;
+    background-color: indigo;
+    color: blanchedalmond;
+    border: 3px solid black;
     padding: 10px 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto Mono', monospace;
     
 }
 
